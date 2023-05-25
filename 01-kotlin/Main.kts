@@ -12,7 +12,7 @@ fun main(args: Array<String>){
     mutable ="Adrian";
 
 
-     // de preferencia se usan las inmutables val > var
+    //de preferencia se usan las inmutables val > var
 
     //Duck typing
     var ejemploVariable = " Kevin Rivadeneira"
