@@ -1,1 +1,1 @@
-15,NuevoAvion,,88,false
+15,NuevoAvion,,88,false, true
