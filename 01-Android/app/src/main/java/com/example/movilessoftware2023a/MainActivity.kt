@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)
-        val botonCicloVida= findViewById<Button>(
+        /*val botonCicloVida= findViewById<Button>(
             R.id.btn_prueba1
         )
         botonCicloVida.setOnClickListener{
             irActividad(AcicloVida::class.java)
-        }
+        }*/
     }
 
 
@@ -34,3 +34,4 @@ class MainActivity : AppCompatActivity(){
         // this.startActivity()
     }
 }
+

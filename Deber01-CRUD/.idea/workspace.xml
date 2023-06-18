@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36e79c92-9710-4021-a3da-52aa5d62d8d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../01-Android/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-kotlin/01-kotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../01-Android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Android/app/src/main/java/com/example/movilessoftware2023a/AACicloVida.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../01-Android/app/src/main/java/com/example/movilessoftware2023a/AACicloVida.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Android/app/src/main/java/com/example/movilessoftware2023a/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../01-Android/app/src/main/java/com/example/movilessoftware2023a/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Android/app/src/main/res/layout/activity_aaciclo_vida.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-Android/app/src/main/res/layout/activity_aaciclo_vida.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../01-kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/01-kotlin/Main.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/META-INF/rivadeneira-bejarano-kevin-mauricio-mov-sof.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/Main$NumerosJava$Numeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/Main$NumerosJava$Suma$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/Main$NumerosJava$Suma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/Main$NumerosJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/MainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/NumerosJava$Numeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/NumerosJava$Suma$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/NumerosJava$Suma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/rivadeneira-bejarano-kevin-mauricio-mov-sof/NumerosJava.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RMMTTrzh0Zonw91vKGmYVfFlEt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/Usuario/Downloads/MovilesKR2/rivadeneira-bejarano-kevin-mauricio-mov-sof/Deber01-CRUD"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36e79c92-9710-4021-a3da-52aa5d62d8d2" name="Changes" comment="" />
+      <created>1687055504398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687055504398</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
