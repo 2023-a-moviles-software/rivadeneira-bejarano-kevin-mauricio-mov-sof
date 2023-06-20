@@ -3,7 +3,7 @@ import java.io.PrintWriter
 import java.util.Date
 import java.text.SimpleDateFormat
 
-data class Avion(val id: Int, var nombre: String, var modelo: String, var capacidad: Int, var enServicio: Boolean)
+    data class Avion(val id: Int, var nombre: String, var modelo: String, var capacidad: Int, var enServicio: Boolean)
     data class Ruta(val id: Int, var origen: String, var destino: String, var duracion: Double, var fecha: Date, var avionId: Int)
     val dateFormat = SimpleDateFormat("dd/MM/yyyy")
     fun main() {
@@ -128,6 +128,7 @@ data class Avion(val id: Int, var nombre: String, var modelo: String, var capaci
         print("Ingresa la fecha de la ruta en formato (dd/mm/aaaa): ")
         val fecha = dateFormat.parse(readLine())
 
+
         print("Ingresa el ID del avión asociado a la ruta: ")
         val avionId = readLine()?.toIntOrNull()
 
@@ -155,14 +156,15 @@ data class Avion(val id: Int, var nombre: String, var modelo: String, var capaci
         } else {
             for (ruta in rutas) {
                 val avion = aviones.find { it.id == ruta.avionId }
-                println("ID: ${ruta.id}")
-                println("Origen: ${ruta.origen}")
-                println("Destino: ${ruta.destino}")
-                println("Duración: ${ruta.duracion} minutos")
-                println("Fecha: ${ruta.fecha}")
-                println("Avión: ${avion?.nombre} (ID: ${avion?.id})")
-                println("************************")
+                print(" | ID: ${ruta.id}".format())
+                print(" | Origen: ${ruta.origen}".format())
+                print(" | Destino: ${ruta.destino}".format())
+                print(" | Duración: ${ruta.duracion} minutos".format())
+                print(" | Fecha: ${ruta.fecha}".format())
+                println(" | Avión: ${avion?.nombre} (ID: ${avion?.id})".format())
+
             }
+            println("************************")
         }
     }
 
@@ -173,13 +175,14 @@ data class Avion(val id: Int, var nombre: String, var modelo: String, var capaci
         } else {
             println("******** Lista de Aviones ********")
             aviones.forEach { avion ->
-                println("ID: ${avion.id}")
-                println("Nombre: ${avion.nombre}")
-                println("Modelo: ${avion.modelo}")
-                println("Capacidad: ${avion.capacidad}")
-                println("En Servicio: ${avion.enServicio}")
-                println("************************")
+                print(" | ID: ${avion.id}".format())
+                print(" | Nombre: ${avion.nombre}".format())
+                print(" | Modelo: ${avion.modelo}".format())
+                print(" | Capacidad: ${avion.capacidad}".format())
+                println(" | En Servicio: ${avion.enServicio}".format())
+
             }
+            println("************************")
         }
     }
 
@@ -332,14 +335,21 @@ data class Avion(val id: Int, var nombre: String, var modelo: String, var capaci
     //Función para guardar los datos en memoria hacia el archivo txt
     fun guardarRutas(file: File, rutas: List<Ruta>) {
         try {
+
             PrintWriter(file).use { writer ->
                 rutas.forEach { ruta -> //Extrae datos del array y los escribe en el fichero
-                    writer.println("${ruta.id},${ruta.origen},${ruta.destino},${ruta.duracion},${ruta.fecha},${ruta.avionId}")
+                    val fechaStr = dateFormat.format(ruta.fecha)
+                    writer.println("${ruta.id},${ruta.origen},${ruta.destino},${ruta.duracion},${fechaStr},${ruta.avionId}")
                 }
             }
             println("Rutas guardadas exitosamente en el archivo.")
         } catch (e: Exception) {
             println("Error al guardar las rutas en el archivo: ${e.message}")
         }
+    }
+
+    fun String.format(length: Int = 15): String {
+        val padding = (length - this.length) / 2
+        return this.padStart(padding + this.length).padEnd(length)
     }
 
