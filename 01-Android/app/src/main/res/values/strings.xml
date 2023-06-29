@@ -1,14 +1,17 @@
 <resources>
-    <string name="nombre">MovilesSoftware2023A</string>
-    <string name="bienvenida">Welcome</string>
-    <string name="title_activity_aaciclo_vida">AACicloVida</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="nombre" translatable="false">MovilesSoftware2023A</string>
+    <string name="bienvenida" translatable="false">Welcome</string>
+    <string name="idioma_texto" translatable="false">Ingles/Español</string>
 
-    <string name="lorem_ipsum">
+
+    <string name="title_activity_aaciclo_vida" translatable="false">AACicloVida</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="lorem_ipsum" translatable="false">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
@@ -44,5 +47,13 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="title_activity_blist_view">blistView</string>
+    <string name="title_activity_cintent_explicito_parametros">cIntentExplicitoParametros</string>
+
+    <string-array name = "string_array_opciones_dialogo">
+    <item>Lunes</item>
+    <item>MArtes</item>
+    <item>Miercoles</item>
+
 
 </resources>
