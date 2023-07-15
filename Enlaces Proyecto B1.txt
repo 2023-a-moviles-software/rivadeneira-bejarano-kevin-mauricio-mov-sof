@@ -1,0 +1,12 @@
+						Proyecto Primer Bimestre
+Integrantes:
+	- Kevin Rivadeneira
+	- Marcela Montalvo
+
+En el siguiente espacio en Notion se encuentran embebidos
+todos los requerimientos del proyecto:
+- Base de datos
+- Mockups
+- Historias de usuario(Epics, HU, tasks)
+
+https://polyester-record-609.notion.site/Proyecto-Aplicaciones-M-viles-Sistema-de-Historial-M-dico-Personal-6d2886f19dec40909887f4075eb9eac0
