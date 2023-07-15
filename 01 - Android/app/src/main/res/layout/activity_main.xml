@@ -45,7 +45,7 @@
         android:id="@+id/btn_ciclo_vida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="112dp"
         android:text="Ciclo Vida"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="@+id/textView16"
@@ -79,7 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="R_View"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="365dp" />
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="337dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
