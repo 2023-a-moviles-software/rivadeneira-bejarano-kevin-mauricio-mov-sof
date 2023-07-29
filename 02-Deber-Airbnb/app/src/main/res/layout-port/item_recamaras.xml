@@ -37,22 +37,22 @@
             app:layout_constraintTop_toBottomOf="@+id/ivOpciones" />
 
         <TextView
-            android:id="@+id/tvOpcionesDescripcion"
+            android:id="@+id/tvCamas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Descripcion"
+            android:text="Camas"
             app:layout_constraintStart_toStartOf="@+id/tvOpcionesNombre"
             app:layout_constraintTop_toBottomOf="@+id/tvOpcionesNombre" />
 
         <TextView
-            android:id="@+id/tvOpcionesPrecio"
+            android:id="@+id/tvBanios"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Precio"
+            android:text="Baños"
             app:layout_constraintStart_toStartOf="@+id/tvOpcionesNombre"
-            app:layout_constraintTop_toBottomOf="@+id/tvOpcionesDescripcion" />
+            app:layout_constraintTop_toBottomOf="@+id/tvCamas" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     </layout>

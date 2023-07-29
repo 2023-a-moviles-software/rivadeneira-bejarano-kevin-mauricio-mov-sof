@@ -26,11 +26,11 @@
             tools:background="@color/black" />
 
         <TextView
-            android:id="@+id/tvRestauranteNombre"
+            android:id="@+id/tvUbicacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="Nombre"
+            android:text="Ubicación"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.21"
@@ -38,32 +38,32 @@
             app:layout_constraintTop_toBottomOf="@+id/ivRestaurante" />
 
         <TextView
-            android:id="@+id/tvRestauranteTiempo"
+            android:id="@+id/tv_distancia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
-            android:text="Tiempo"
-            app:layout_constraintStart_toStartOf="@+id/tvRestauranteNombre"
-            app:layout_constraintTop_toBottomOf="@+id/tvRestauranteNombre" />
+            android:text="Distancia"
+            app:layout_constraintStart_toStartOf="@+id/tvUbicacion"
+            app:layout_constraintTop_toBottomOf="@+id/tvUbicacion" />
 
         <TextView
-            android:id="@+id/tvRestauranteCostoEnvio"
+            android:id="@+id/tvFecha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="1dp"
-            android:text="Costo Envío"
-            app:layout_constraintStart_toStartOf="@+id/tvRestauranteTiempo"
-            app:layout_constraintTop_toBottomOf="@+id/tvRestauranteTiempo" />
+            android:text="Fecha"
+            app:layout_constraintStart_toStartOf="@+id/tv_distancia"
+            app:layout_constraintTop_toBottomOf="@+id/tv_distancia" />
 
         <TextView
-            android:id="@+id/tvRestauranteCalificacion"
+            android:id="@+id/tvPrecio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Calificacion"
+            android:text="Precio"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/tvRestauranteCostoEnvio"
-            app:layout_constraintTop_toBottomOf="@+id/tvRestauranteCostoEnvio" />
+            app:layout_constraintStart_toStartOf="@+id/tvFecha"
+            app:layout_constraintTop_toBottomOf="@+id/tvFecha" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
