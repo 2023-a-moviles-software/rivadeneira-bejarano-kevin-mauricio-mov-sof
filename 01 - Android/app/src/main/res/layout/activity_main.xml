@@ -82,4 +82,26 @@
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="337dp" />
 
+    <Button
+        android:id="@+id/btn_google_maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="G Maps"
+        app:layout_constraintEnd_toEndOf="@+id/btn_recycler_view"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_recycler_view"
+        app:layout_constraintTop_toBottomOf="@+id/btn_recycler_view" />
+
+    <Button
+        android:id="@+id/btn_intent_firebase_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="UI Auth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_google_maps" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".RecamarasRV">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="0dp"
+            android:elevation="8dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/alojamiento" />
+
+        <ImageButton
+            android:id="@+id/image_btn_homeshgds"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_weight="5"
+            android:background="@android:color/transparent"
+            android:src="@drawable/corazon"
+            android:scaleType="fitCenter"
+            android:contentDescription="jk"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="350dp"
+            android:elevation="9dp"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="280dp"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:text="Estancia Luxury de Muxis\nEl Limón, República Dominicana" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8 huéspedes . 4 habitaciones . 6 camas . 4 baños"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="0dp"/>
+                <View
+                    android:layout_width="370dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                android:background="@drawable/separador"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sobre el alojamiento"
+                    android:textStyle="bold"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="355dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
+                    android:text="¡Bienvenido a nuestro acogedor paraíso urbano! Descubre la esencia de la comodidad y el estilo en nuestro alojamiento exclusivo de Airbnb. Sumérgete en un espacio moderno y sofisticado, diseñado para cautivar todos tus sentidos. Desde sus vistas panorámicas hasta su diseño único y elegante, cada rincón te invita a vivir una experiencia inolvidable. " />
+
+                <View
+                    android:layout_width="370dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/separador"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distribución de las camas"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:elevation="0dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:elevation="0dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView_Opciones"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="370dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/separador" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dónde vas a estar"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="El limón, República Dominicana"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="0dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/mapa"
+                    android:elevation="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+        />
+
+
+
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout2h"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:elevation="18dp"
+
+            android:background="#ffffff"
+            android:layout_marginTop="715dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:backgroundTint="#ffffff">
+
+                <ImageButton
+                    android:id="@+id/image_btn_homeafd"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/lupa_selected"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="jk" />
+
+                <ImageButton
+                    android:id="@+id/image_btn_homeshg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/corazon"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="jk" />
+
+                <ImageButton
+                    android:id="@+id/image_btn_homehjg"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/airbnb"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="jk" />
+
+                <ImageButton
+                    android:id="@+id/image_btn_homehfhj"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/mensaje"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="jk" />
+
+                <ImageButton
+                    android:id="@+id/image_btn_homejkj"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/user3"
+                    android:contentDescription="jk"
+                    android:scaleType="fitCenter"/>
+            </LinearLayout>
+        </FrameLayout>
+
+
+
+    </FrameLayout>
+    </layout>

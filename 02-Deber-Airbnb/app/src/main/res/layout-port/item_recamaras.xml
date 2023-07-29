@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="216dp"
+        android:layout_height="278dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivOpciones"
+            android:layout_width="188dp"
+            android:layout_height="127dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/black"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:id="@+id/tvOpcionesNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nombre"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivOpciones" />
+
+        <TextView
+            android:id="@+id/tvOpcionesDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Descripcion"
+            app:layout_constraintStart_toStartOf="@+id/tvOpcionesNombre"
+            app:layout_constraintTop_toBottomOf="@+id/tvOpcionesNombre" />
+
+        <TextView
+            android:id="@+id/tvOpcionesPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Precio"
+            app:layout_constraintStart_toStartOf="@+id/tvOpcionesNombre"
+            app:layout_constraintTop_toBottomOf="@+id/tvOpcionesDescripcion" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </layout>
