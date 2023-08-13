@@ -13,7 +13,7 @@ class RecamarasViewHolder (view: View): RecyclerView.ViewHolder(view){
     val nombreRecamara = view.findViewById<TextView>(R.id.tvOpcionesNombre)
     val camas = view.findViewById<TextView>(R.id.tvCamas)
     val banios = view.findViewById<TextView>(R.id.tvBanios)
-    val photoRecamara = view.findViewById<ImageView>(R.id.ivOpciones)
+    val photoRecamara = view.findViewById<ImageView>(R.id.ivRecamaras)
 
     fun render(opcionesModel: Recamaras){
         nombreRecamara.text = opcionesModel.nombreRecamara

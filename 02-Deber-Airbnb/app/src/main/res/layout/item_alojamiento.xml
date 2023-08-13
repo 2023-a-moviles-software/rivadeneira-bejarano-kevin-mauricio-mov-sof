@@ -14,7 +14,7 @@
         tools:layout_editor_absoluteY="1dp">
 
         <ImageView
-            android:id="@+id/ivRestaurante"
+            android:id="@+id/ivAlojamiento"
             android:layout_width="365dp"
             android:layout_height="215dp"
             android:layout_marginTop="16dp"
@@ -35,7 +35,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.21"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ivRestaurante" />
+            app:layout_constraintTop_toBottomOf="@+id/ivAlojamiento" />
 
         <TextView
             android:id="@+id/tv_distancia"

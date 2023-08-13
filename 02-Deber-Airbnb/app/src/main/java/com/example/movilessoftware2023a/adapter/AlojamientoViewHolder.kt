@@ -14,7 +14,7 @@ class AlojamientoViewHolder (view: View): RecyclerView.ViewHolder(view) {
     val distancia = view.findViewById<TextView>(R.id.tv_distancia)
     val fecha = view.findViewById<TextView>(R.id.tvFecha)
     val precio = view.findViewById<TextView>(R.id.tvPrecio)
-    val photo = view.findViewById<ImageView>(R.id.ivRestaurante)
+    val photo = view.findViewById<ImageView>(R.id.ivAlojamiento)
 
 
     fun render(restauranteModel: Alojamiento){

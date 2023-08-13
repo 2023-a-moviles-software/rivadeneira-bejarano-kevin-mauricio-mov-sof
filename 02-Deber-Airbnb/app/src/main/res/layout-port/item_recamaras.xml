@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/ivOpciones"
+            android:id="@+id/ivRecamaras"
             android:layout_width="188dp"
             android:layout_height="127dp"
             android:layout_marginStart="16dp"
@@ -34,7 +34,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.112"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ivOpciones" />
+            app:layout_constraintTop_toBottomOf="@+id/ivRecamaras" />
 
         <TextView
             android:id="@+id/tvCamas"

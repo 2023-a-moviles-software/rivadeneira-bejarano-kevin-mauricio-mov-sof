@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         AlojamientoProvider.AlojamientoLista
-        initRecyclerViewRappi()
+        initRecyclerViewAir()
 
         val btnOpciones = findViewById<Button>(R.id.btn_consultar)
         btnOpciones.setOnClickListener {
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun initRecyclerViewRappi(){
+    private fun initRecyclerViewAir(){
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerView_Alojamiento)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = AlojamientoAdapter(AlojamientoProvider.AlojamientoLista)
