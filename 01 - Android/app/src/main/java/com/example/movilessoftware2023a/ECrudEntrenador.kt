@@ -1,13 +1,11 @@
 package com.example.movilessoftware2023a
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 
 class ECrudEntrenador : AppCompatActivity() {
-    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ecrud_entrenador)
@@ -19,17 +17,17 @@ class ECrudEntrenador : AppCompatActivity() {
                 val nombre = findViewById<EditText>(R.id.input_nombre)
                 val descripcion = findViewById<EditText>(R.id.input_descripcion)
                 val idInt = id.text.toString().toInt()
-                    if(EBaseDeDatos.tablaEntrenador != null && idInt !=null){
-                        val entrenador = EBaseDeDatos.tablaEntrenador
-                            ?.consultarEntrenadorPorID(idInt)
-                        if(entrenador != null){
-                            id.setText(entrenador.id.toString())
-                            nombre.setText(entrenador.nombre)
-                            descripcion.setText(entrenador.descripcion)
-                        }
+                if(EBaseDeDatos.tablaEntrenador != null && idInt != null){
+                    val entrenador = EBaseDeDatos.tablaEntrenador
+                        ?.consultarEntrenadorPorID(
+                            idInt
+                    )
+                    if(entrenador != null){
+                        id.setText(idInt.toString())
+                        nombre.setText(entrenador.nombre)
+                        descripcion.setText(entrenador.descripcion)
                     }
-
-
+                }
             }
 
         val botonCrearBDD = findViewById<Button>(R.id.btn_crear_bdd)
@@ -42,7 +40,6 @@ class ECrudEntrenador : AppCompatActivity() {
                     descripcion.text.toString()
                 )
             }
-
         val botonActualizarBDD = findViewById<Button>(R.id.btn_actualizar_bdd)
         botonActualizarBDD
             .setOnClickListener {

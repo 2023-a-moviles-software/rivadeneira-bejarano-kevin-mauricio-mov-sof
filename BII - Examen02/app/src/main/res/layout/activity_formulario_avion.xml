@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="FormularioAvion">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="415dp"
+        android:layout_height="65dp"
+        android:background="#038FFF"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modelo"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <EditText
+            android:id="@+id/te_modelo_avion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Modelo"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Capacidad de pasajeros"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <EditText
+            android:id="@+id/te_capacidad_avion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Cantidad"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Número de serie"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <EditText
+            android:id="@+id/te_numserie_avion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Número de serie"
+            android:inputType="number"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="228dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Estado"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="275dp" />
+
+        <EditText
+            android:id="@+id/te_estado_avion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vuelo-Mantenimiento-Tierra"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aerolinea"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="389dp" />
+
+        <EditText
+            android:id="@+id/te_aerolinea_avion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Aerolinea"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txt_modo_avion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo"
+        android:textColor="#F8F6F6"
+        android:textColorHint="#FBFBFB"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_guardar_avion"
+        android:layout_width="158dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#F11B1B"
+        android:text="@string/guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,6 +9,7 @@ import android.provider.ContactsContract
 import android.util.Log
 import android.widget.Button
 import androidx.activity.result.contract.ActivityResultContracts
+import com.example.movilescomputacion2023a.BEntrenador
 
 class MainActivity : AppCompatActivity() {
 
@@ -97,26 +98,33 @@ class MainActivity : AppCompatActivity() {
 
         val botonSqlite = findViewById<Button>(R.id.btn_sqlite)
         botonSqlite
-            .setOnClickListener{
+            .setOnClickListener {
                 irActividad(ECrudEntrenador::class.java)
             }
 
-        val botonView = findViewById<Button>(R.id.btn_recycler_view)
-        botonView
-            .setOnClickListener{
+        val botonRView = findViewById<Button>(R.id.btn_revcycler_view)
+        botonRView
+            .setOnClickListener {
                 irActividad(FRecyclerView::class.java)
             }
-        
+
         val botonGoogleMaps = findViewById<Button>(R.id.btn_google_maps)
         botonGoogleMaps
-            .setOnClickListener{
+            .setOnClickListener {
                 irActividad(GGoogleMaps::class.java)
             }
 
         val botonUiAuth = findViewById<Button>(R.id.btn_intent_firebase_ui)
         botonUiAuth
-            .setOnClickListener{
+            .setOnClickListener {
                 irActividad(HFirebaseUIAuth::class.java)
+            }
+
+
+        val botonFirestore = findViewById<Button>(R.id.btn_intent_firestore)
+        botonFirestore
+            .setOnClickListener {
+                irActividad(IFirestore::class.java)
             }
     }
 
@@ -139,6 +147,9 @@ class MainActivity : AppCompatActivity() {
         intentExplicito.putExtra("nombre", "Adrian")
         intentExplicito.putExtra("apellido", "Eguez")
         intentExplicito.putExtra("edad", 30)
+        intentExplicito.putExtra("entrenador",BEntrenador(
+            1, "Adrian","Entrenador"
+        ))
         // enviamos el intent con RESPUESTA
         // RECIBIMOS RESPUESTA
         callbackContenidoIntentExplicito
