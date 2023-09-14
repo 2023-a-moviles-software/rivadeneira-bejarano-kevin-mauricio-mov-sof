@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sistema de gestión de tratamientos</string>
+    <string name="title_activity_lista_de_actividades">ListaDeActividades</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="titulo_lista_actividades">Lista de Tratamientos</string>
+    <string name="tv_register"><u>Regístrate aquí</u></string>
+    <string name="tv_regresar"><u>Regresar</u></string>
+</resources>

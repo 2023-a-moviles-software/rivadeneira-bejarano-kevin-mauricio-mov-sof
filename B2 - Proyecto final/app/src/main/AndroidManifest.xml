@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app_proyecto2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoTratamientosKevMarce">
+        <activity
+            android:name="com.example.app_proyecto2.view.Login.RegistrarUsuarios"
+            android:exported="true"
+            android:noHistory="true"/>
+        <activity
+            android:name="com.example.app_proyecto2.view.Lista.CrearLista"
+            android:exported="true"
+            android:label="Nueva Lista"
+            android:noHistory="true"/>
+        <activity
+            android:name="com.example.app_proyecto2.view.Actividad.verMedicamento"
+            android:exported="true"
+            android:noHistory="true"/>
+        <activity
+            android:name="com.example.app_proyecto2.view.Actividad.CrearMedicamento"
+            android:exported="true"
+            android:label="Ingreso de nuevo Medicamento"
+            android:noHistory="true"/>
+        <activity
+            android:name="com.example.app_proyecto2.view.Lista.EditTratamiento"
+            android:exported="true"
+            android:label="Modificar Tratamientos"
+            android:noHistory="true"/>
+        <activity
+            android:name="com.example.app_proyecto2.view.Lista.verTratamientos"
+            android:exported="true"
+            android:label="Listado de medicamentos"
+            android:theme="@style/Theme.ProyectoTratamientosKevMarce.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="com.example.app_proyecto2.view.Login.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

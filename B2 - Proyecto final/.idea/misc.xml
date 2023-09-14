@@ -1,0 +1,49 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.26615384615384613" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_configurar_lista.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_crear_actividad.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_crear_lista.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_lista_de_actividades.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_registrar_usuarios.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/app_bar_lista_de_actividades.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/content_lista_de_actividades.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/fragment_lista_actividades.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/nav_header_lista_de_actividades.xml" value="0.25416666666666665" />
+        <entry key="..\:/RepositoriosCalidad/Repositorio_Documentacion_Videos/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/menu/lista_de_actividades.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/drawable/btn_delete_border.xml" value="0.1953125" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/drawable/ic_filter_list.xml" value="0.1953125" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/drawable/sp_borders.xml" value="0.1" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/drawable/sp_filter.xml" value="0.1" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/drawable/sp_filter_off.xml" value="0.1953125" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/drawable/sp_filter_on.xml" value="0.1953125" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_configurar_lista.xml" value="0.5" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_crear_actividad.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_crear_lista.xml" value="0.22" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_lista_de_actividades.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/activity_visualizar_actividad.xml" value="0.33" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/app_bar_lista_de_actividades.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/content_lista_de_actividades.xml" value="0.1" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/fragment_gallery.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/fragment_lista_actividades.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/layout/nav_header_lista_de_actividades.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/menu/lista_de_actividades.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/mahis/Documents/Github/mov-soft-lopez-quijano-proyecto/Segundo bimestre/app/src/main/res/menu/menu_eliminar.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

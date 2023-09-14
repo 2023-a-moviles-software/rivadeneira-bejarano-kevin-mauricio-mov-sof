@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_lista_actividades">
+
+    <fragment
+        android:id="@+id/nav_lista_actividades"
+        android:name="com.example.app_proyecto2.view.Lista.NavigationBar.ListaActividadesFragment"
+        tools:layout="@layout/fragment_lista_actividades" />
+    <!--android:label="@string/menu_home"-->
+
+</navigation>
